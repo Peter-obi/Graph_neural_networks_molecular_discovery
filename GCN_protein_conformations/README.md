@@ -1,4 +1,5 @@
-# GCN Protein Data Processing
+# GCN for classification of protein conformations + interpretability
+
 This repository contains code for training and explaining a Graph Convolutional Network (GCN) model on protein structures from different classes. Example: Active and inactive conformations of the protein. We add an interpretability layer for understanding the edges important for classification.
 
 ### Installation
