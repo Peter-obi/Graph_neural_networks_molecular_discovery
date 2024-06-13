@@ -39,7 +39,7 @@ def main(data_dir, num_epochs=20, patience=10):
 
     # Initialize model
     sample_data = next(iter(train_loader))
-    model = GCN(num_node_features=sample_data.num_node_features, num_classes=sample_data.num_classes)
+    model = GCN(input_dim = 3, hidden_channels=256)
     model = model.to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
