@@ -41,7 +41,6 @@ The GCN model is defined in the gcn.py file. It consists of three graph convolut
 
 ### Explanations
 The explain.py file contains functions to generate explanations for the GCN model using the Integrated Gradients and Saliency methods from the Captum library.
-.
 
 ### Contributing
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
