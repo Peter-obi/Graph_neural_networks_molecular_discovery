@@ -27,6 +27,7 @@ python main.py --data-dirs path/to/data1 path/to/data2 --num-epochs 20 --patienc
 --patience: Set the number of epochs to wait for improvement before early stopping (default: 10).
 
 ### Data
+You can create the graphs using the create_graphs.py. This generates edges between c-alpha atoms within a certain threshold and stores them in a .pt file. Usage could be implemented by taking breaking up a trajectory into individual pdb files and then create graphs from that. Creativity with this is encouraged!
 The code assumes that the protein data is stored in .pt files located in one or more directories. Each .pt file should contain a torch_geometric.data.Data object with the following attributes:
 ```
 x: Node feature matrix of shape [num_nodes, num_features].
